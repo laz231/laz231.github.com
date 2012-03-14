@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {background:#FFF;
+font-family:Arial, Helvetica, sans-serif;
+color:#999;
+margin:0;
+padding:0;
+line-height: 1.5em;
+}
+
+A:link    { color: #CF0; text-decoration:none; }
+A:active  { color: blue; font-size: 125% }
+A:visited { color: green; font-size: 85% }
+
+#commonwealth {font-family:Arial, Helvetica, sans-serif;
+				font-size:60px;
+				color:#CF0;
+				line-height:.78em;
+}
+#wealth {letter-spacing: .09em;
+}
+.smallTitle {font-size:.8em;
+color:#000;
+}
+#skillshare{
+font-family: 'CoolveticaRg-Regular';src: url('webfonts/205A95_0_0.eot');src: url('webfonts/205A95_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/205A95_0_0.woff') format('woff'),url('webfonts/205A95_0_0.ttf') format('truetype');
+line-height:.6em;
+font-size:36px;
+color:#999;
+}
+#topline{position:absolute;
+		top:130px;
+		margin: 0 auto;
+		width:840px;
+}
+#bold{font-size:1.2em;
+color:#000;
+font-weight:bold;
+}
+#blog{border: black 1px solid;
+border-bottom:none;
+margin-top:40px;
+}
+#participate{ border-top: black 1px solid;
+			margin-top:40px;
+}
+
+
+
+/*Columns*/
+#maincontainer{
+width: 840px; 
+margin: 0 auto;
+}
+
+#topcontainer{
+float: left;
+width: 100%;
+}
+
+#commContainer{
+float: left;
+width: 180px; 
+margin-left:0px; 
+}
+
+#skillContainer{
+float: left;
+width: 190px; 
+margin-left: 98px; 
+margin-top: 57px;
+}
+
+
+#contentwrapper{
+float: left;
+width: 100%;
+}
+
+#contentcolumn{
+margin: 0 190px 0 180px; 
+}
+
+#leftcolumn{
+float: left;
+width: 180px; 
+margin-left: -840px; 
+background: #C8FC98;
+}
+
+#rightcolumn{
+float: left;
+width: 190px; 
+margin-left: -190px; 
+background: #FDE95E;
+}
+
+#footer{
+clear: left;
+width: 100%;
+background: black;
+color: #FFF;
+text-align: center;
+padding: 4px 0;
+}
+
+#footer a{
+color: #FFFF80;
+}
+
+.innertube{
+margin: 10px; 
+margin-top: 0;
+}
+
+
