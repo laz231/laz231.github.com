@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+a:link{color:inherit; text-decoration:none;
+}
+a:visited{color:#993300; text-decoration:none;
+}
+a:hover{ color: #060; text-decoration:none;
+}
+
+body {background: #FFF8DC;
+}
+
+h1 {font-family: 'CoolveticaRg-Regular';src: url('webfonts/205A95_0_0.eot');src: url('webfonts/205A95_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/205A95_0_0.woff') format('woff'),url('webfonts/205A95_0_0.ttf') format('truetype');
+
+}
+#vs {background: #993300;
+	position:absolute;
+	top:27px;
+	left:220px;
+	z-index:1;
+	width:40px;
+	height:36px;
+	-moz-border-radius: 5px;
+     border-radius: 5px;
+	
+}
+#title {position:relative;
+	    z-index: 155;
+		width:800px;
+}
+#title1 {padding-left:40px;
+		 color: #3C4A21;
+}
+#title2 {font-size:.8em;
+			color:#FFF8DC;
+}
+#title3 {color: #993300;
+}
+#circle { -moz-border-radius: 80px;
+			-webkit-border-radius: 80px;
+			border-radius: 80px;
+			background: #FFFFFF;
+			z-index: 500;
+			position:absolute;
+			left:700px;
+			top:5px;
+			width:120px;
+			height:120px;
+			padding:10px;
+			font-size:2em;
+			line-height:.7em;
+			text-align:center;
+			color: #993300;
+			font-family:'CoolveticaRg-Regular';src: url('webfonts/205A95_0_0.eot');src: url('webfonts/205A95_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/205A95_0_0.woff') format('woff'),url('webfonts/205A95_0_0.ttf') format('truetype');
+}
+#takeAction { background: #993300;
+				width:150%;
+				position:relative;
+				z-index:0;
+				left:-20px;
+				top:-30px;
+				
+}
+
+#aboutStatement {font-family:arial;
+				font-weight: bold;
+				color: #FFF8DC;
+				background: none;
+				padding-left:60px;
+				padding-right:40px;;
+				padding-top:40px;
+				padding-bottom:40px;
+				margin-bottom:40px;
+				width:40%;
+				position:relative;
+				z-index: 5;
+				
+				
+				
+}
+
+#emphasis { font-size:120%;
+}
+#foodTable {margin-right:40px;
+}
+table { width:100%;
+        border:0;
+		margin-left:20px;
+		margin-right:40px;
+		position:relative;
+		top:-25px;
+}
+td {width: 30%;
+    height: 250px;
+	margin-bottom:40px;
+}
+tr {margin-bottom:40px;
+}
+.tableText {float:bottom;
+			font-size:.8em;
+			color: #3C4A21;
+}
+img.foodie {display: block;
+    margin-left: auto;
+    margin-right: auto }
+	
+#kale, #lettuce, #bellpeppers {
+	font-family:arial;
+	-moz-border-radius: 5px;
+     border-radius: 5px;
+	border-color: #993300;
+	border-style: dashed;
+	border-width:2.5px;
+	margin-left:20px;
+	padding:10px;
+	height:250px;
+	margin-bottom:20px;
+	text-align: center;
+}
